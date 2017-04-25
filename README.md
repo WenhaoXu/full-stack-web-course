@@ -1,5 +1,5 @@
 # full-stack-web-course
-Full Stack Web Development Course. Node.js+Express -> DB -> Front-end -> Engineering
+Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
 
 ### Lesson outline links
  1. [back-end](https://github.com/yellowb/full-stack-web-course/blob/master/front-end/outline.md)
