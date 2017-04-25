@@ -1,11 +1,16 @@
 # full-stack-web-course
-Full Stack Web Development Course
+Full Stack Web Development Course. Node.js+Express -> DB -> Front-end -> Engineering
 
 ### 当前的小目标（@2017-04-25）
 
  1. 请各位先review每个目录下的outline，看是否有需要改动的地方。
  2. 确定课程时长。
  3. 前端讲AngularJS还是Vue.js?
+ 
+### Rule
+ 1. 每部门课程放在对应子目录下
+ 2. 更新了课件要一起更新outline.md。
+ 3. 讨论请去Issues.
 
 ### Updates
 
