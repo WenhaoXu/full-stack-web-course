@@ -25,6 +25,8 @@
 
 **需要确定到底是沿用AngularJS 1还是讲Vue.js**
 
+**对于前端框架，建议用[JSbin] or [JSFiddle]创建范例进行演示**
+
 |    章节（AngularJS 1，同2015~2016）    | 备注 |
 | ---------- | --- |
 | （1）broswer、JS历史 |   |
@@ -51,3 +53,6 @@
 | （7）自定义指令 |   |
 | （8）Vue路由 |   |
 | （9）参考资料  | awesome-vue（github,资料汇总）、element-ui（UI库）等等等...  |
+
+[JSbin]:https://jsbin.com/?html,output
+[JSFiddle]:https://jsfiddle.net/
