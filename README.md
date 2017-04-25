@@ -12,7 +12,7 @@ Full Stack Web Development Course
  1. 创建Repo，给出旧课程大纲与初步的新课程大纲。[by yellow @ 2017-04-25]
  
 ### Issues
-本项目有若干待解决的问题，例如**如下几个**。讨论请移步到Issues :)
+本项目有若干待解决的问题，例如**如下几个**。讨论请**移步到Issues** :)
  1. 整个课程时间有多长（授课+项目）？1周？1.5周？2周？这关系到知识点的挑选。
  2. 授课人员的技能。这关系到谁讲某一门课。
  3. 知识点的挑选与制作PPT，特别是选AngularJS 1还是Vue.JS（这个v1或v2关系不大，不像AngularJS那样断崖式的更新）？如果选Vue.JS，那么AngularJS的PPT就没用了。
