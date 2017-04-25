@@ -1,6 +1,13 @@
 # full-stack-web-course
 Full Stack Web Development Course. Node.js+Express -> DB -> Front-end -> Engineering
 
+### Lesson outline links
+ 1. [back-end](https://github.com/yellowb/full-stack-web-course/blob/master/front-end/outline.md)
+ 2. [db](https://github.com/yellowb/full-stack-web-course/blob/master/db/outline.md)
+ 3. [front-end](https://github.com/yellowb/full-stack-web-course/blob/master/front-end/outline.md)
+ 4. [engineering](https://github.com/yellowb/full-stack-web-course/blob/master/engineering/outline.md)
+ 5. [small-project](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/outline.md)
+ 
 ### 当前的小目标（@2017-04-25）
 
  1. 请各位先review每个目录下的outline，看是否有需要改动的地方。
