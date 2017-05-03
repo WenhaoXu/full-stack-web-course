@@ -27,7 +27,7 @@
 |    章节    | 备注 |
 | ---------- | --- |
 | （1）MEAN简介、Node.js单线程模型 |   |
-| （2）Node.JS安装 + NPM用法 + 一些第三方工具 | npmjs.com、nrm（npm源管理工具）、webstorm、chrome postman等等。是否需要预先准备文档？   |
+| （2）Node.JS安装 + NPM用法 + 一些第三方工具 | npmjs.com、nrm（npm源管理工具）、[nvm-windows(node.js环境版本管理工具)](https://github.com/coreybutler/nvm-windows)、webstorm、chrome postman等等。是否需要预先准备文档？   |
 | （3）Helloword Demo与讲解项目结构 | 包括package.json等  |
 | （4）Node.js module机制       |  详细讲require() |
 | （5）Node.js 异步编程风格 | 由单线程模型引出，只讲最基本的callback风格？ |
@@ -45,3 +45,4 @@
 | （16）常用library | ~如时间允许可选  |
 | （17）Promise | ~如时间允许可选  |
 | （18）测试（mocha、supertest等） | ~如时间允许可选  |
+
