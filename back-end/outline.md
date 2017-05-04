@@ -27,7 +27,7 @@
 |    章节    | 备注 |
 | ---------- | --- |
 | （1）MEAN简介、Node.js单线程模型 |   |
-| （2）Node.JS安装 + NPM用法 + 一些第三方工具 | npmjs.com、nrm（npm源管理工具）、[nvm-windows(node.js环境版本管理工具)](https://github.com/coreybutler/nvm-windows)、webstorm、chrome postman等等。是否需要预先准备文档？   |
+| （2）Node.JS安装 + NPM用法 + 一些第三方工具 | npmjs.com、nrm（npm源管理工具）、[nvm-windows(node.js环境版本管理工具)](https://github.com/coreybutler/nvm-windows)、webstorm、chrome postman等等。是否需要预先准备文档？ @Lance说用MS VSCode代替Webstorm  |
 | （3）ES6一些知识点 | 如果确定要加这个点，那后面的sample code都用ES6写吧 |
 | （4）Helloword Demo与讲解项目结构 | 包括package.json等  |
 | （5）Node.js module机制       |  详细讲require() |
