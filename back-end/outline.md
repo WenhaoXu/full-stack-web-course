@@ -30,7 +30,7 @@
 | （2）Node.JS安装 + NPM用法 + 一些第三方工具 | npmjs.com、nrm（npm源管理工具）、[nvm-windows(node.js环境版本管理工具)](https://github.com/coreybutler/nvm-windows)、webstorm、chrome postman等等。是否需要预先准备文档？ @Lance说用MS VSCode代替Webstorm  |
 | （3）ES6一些知识点 | 如果确定要加这个点，那后面的sample code都用ES6写吧 |
 | （4）Helloword Demo与讲解项目结构 | 包括package.json等  |
-| （5）Node.js module机制       |  详细讲require()、module变量、exports、module.exports |
+| （5）Node.js module机制       |  详细讲require(如何把一个js wrap起来的)、module变量、exports、module.exports、 |
 | （6）Node.js 异步编程风格 | 由单线程模型引出，只讲最基本的callback风格？ |
 | （7）Node.js 标准库 | fs、Buffer、stream |
 | （8）Node.js debug | 如果上面讲了webstorm，这里也提一下webstorm里怎样debug  |
