@@ -2,7 +2,7 @@
 Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
 
 ### Lesson outline links
- 1. [back-end](https://github.com/yellowb/full-stack-web-course/blob/master/front-end/outline.md)
+ 1. [back-end](https://github.com/yellowb/full-stack-web-course/blob/master/back-end/outline.md)
  2. [db](https://github.com/yellowb/full-stack-web-course/blob/master/db/outline.md)
  3. [front-end](https://github.com/yellowb/full-stack-web-course/blob/master/front-end/outline.md)
  4. [engineering](https://github.com/yellowb/full-stack-web-course/blob/master/engineering/outline.md)
