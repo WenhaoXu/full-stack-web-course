@@ -11,7 +11,7 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
 ### 当前的小目标（@2017-04-25）
 
  1. 请各位先review每个目录下的outline，看是否有需要改动的地方。
- 2. 确定课程时长。
+ 2. ~~确定课程时长。~~（6天（week1 Mon~Fri）+（week2 Mon））
  3. 前端讲AngularJS还是Vue.js?
  
 ### Rule
