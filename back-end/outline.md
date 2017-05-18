@@ -42,8 +42,8 @@
 | （13）静态资源 |  |
 | （14）view engine | 挑最简单的EJS讲？ |
 | （15）[Node.js Rest API 的 10 个最佳实践](https://zhuanlan.zhihu.com/p/25506654?utm_source=wechat_session&utm_medium=social) | ~如时间允许可选 |
-| （16）log（winston） | ~如时间允许可选  |
-| （17）常用library | ~如时间允许可选  |
+| （16）log（winston） | ~~如时间允许可选~~  |
+| （17）常用library | ~~如时间允许可选~~ Lance说讲这个  |
 | （18）Promise | ~如时间允许可选  |
 | （19）测试（mocha、supertest等） | ~如时间允许可选  |
 
