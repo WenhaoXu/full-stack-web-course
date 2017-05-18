@@ -8,11 +8,12 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
  4. [engineering](https://github.com/yellowb/full-stack-web-course/blob/master/engineering/outline.md)
  5. [small-project](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/outline.md)
  
-### 当前的小目标（@2017-04-25）
+### 当前TODO List（@2017-05-17）
 
- 1. 请各位先review每个目录下的outline，看是否有需要改动的地方。
+ 1. ~~请各位先review每个目录下的outline，看是否有需要改动的地方。~~ 
  2. ~~确定课程时长。~~（6天（week1 Mon~Fri）+（week2 Mon））
- 3. 前端讲AngularJS还是Vue.js?
+ 3. ~~前端讲AngularJS还是Vue.js?~~ (因为Vue.JS以前没讲过，不知道效果，也没有PPT，所以先plan讲angularJS 1先. Vue.JS可以先作为team内部share先制作一次，之后再用到ITA上)
+ 4. 确定每个知识点的细节
  
 ### Rule
  1. 每部门课程放在对应子目录下
