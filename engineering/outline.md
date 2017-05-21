@@ -19,3 +19,4 @@
 | （1）JS模块化介绍 |   |
 | （2）Gulp  |   |
 | （3）Webpack|  |
+| (4) Webpack Revolution 项目演练| 参考[Webpack Revolution](https://github.com/Aquariuslt/Webpack-Revolution)|
