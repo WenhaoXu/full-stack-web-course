@@ -18,5 +18,5 @@
 | ---------- | --- |
 | (1)JS Modularize |   |
 | (2)Gulp  |   need update PPT |
-| (3)Webpack|  need update PPT |
-| (4) Webpack Revolution 项目演练| 参考[Webpack Revolution](https://github.com/Aquariuslt/Webpack-Revolution)  预计用时:一个下午|
+| (3)Webpack|  见[2017/Webpack.ppt](https://github.com/yellowb/full-stack-web-course/tree/master/engineering/2017/Webpack.pptx) (持续更新中)减少了PPT中demo的代码示例与页数 重点在介绍 Webpack 的定位,作用,优势|
+| (4)Webpack Revolution 项目演练| 参考[Webpack Revolution](https://github.com/Aquariuslt/Webpack-Revolution)  预计用时:一个下午|
