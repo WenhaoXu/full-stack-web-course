@@ -13,8 +13,9 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
  1. ~~请各位先review每个目录下的outline，看是否有需要改动的地方。~~ 
  2. ~~确定课程时长。~~（6天（week1 Mon~Fri）+（week2 Mon））
  3. ~~前端讲AngularJS还是Vue.js?~~ (因为Vue.JS以前没讲过，不知道效果，也没有PPT，所以先plan讲angularJS 1先. Vue.JS可以先作为team内部share先制作一次，之后再用到ITA上)
- 4. 每个组看看提纲里有哪些是必须的
+ 4. ~~每个组看看提纲里有哪些是必须的~~
  5. smallproject 题目要增加复杂度
+ 6. **6月开始要动手做PPT了**
  
 ### Rule
  1. 每部门课程放在对应子目录下
