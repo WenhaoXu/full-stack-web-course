@@ -8,7 +8,7 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
  4. [engineering](https://github.com/yellowb/full-stack-web-course/blob/master/engineering/outline.md)
  5. [small-project](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/outline.md)
  
-### 当前TODO List（@2017-05-17）
+### 当前TODO List（@2017-06-9）
 
  1. ~~请各位先review每个目录下的outline，看是否有需要改动的地方。~~ 
  2. ~~确定课程时长。~~（6天（week1 Mon~Fri）+（week2 Mon））
