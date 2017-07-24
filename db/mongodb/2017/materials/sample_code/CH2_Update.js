@@ -21,6 +21,17 @@ db.ch2.updateOne(
     { item: "paper" },
     // Update statement
     {
-        $set: { qty: 99, status: "P" },
+        $set: { qty: 99, status: "P" }
+    }
+);
+
+// Single update - sample 2 more complex
+db.ch2.updateOne(
+    // Filter statement
+    { item: "paper" },
+    // Update statement
+    {
+        $set: {status: "A" },
+        $inc: {qty: -1}
     }
 );
