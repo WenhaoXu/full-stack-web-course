@@ -35,3 +35,44 @@ db.ch2.updateOne(
         $inc: {qty: -1}
     }
 );
+
+// Multiple update
+db.ch2.updateMany(
+    // Filter statement
+    { qty: {$lt: 50} },
+    // Update statement
+    {
+        $set: { status: "P" }
+    }
+);
+
+// Replace
+db.ch2.replaceOne(
+    // Filter statement
+    { qty: {$lt: 50} },
+    // Replacement
+    { item: 'sb'}
+);
+
+// Upsert
+db.ch2.updateOne(
+    // Filter statement
+    { item: "Pig" },
+    // Update statement
+    {
+        $set: {status: "A" },
+        $inc: {qty: 999}
+    },
+    // Options
+    { upsert: true}
+);
+
+// $push: 
+db.ch2.updateOne(
+    // Filter statement
+    { item: "Pig" },
+    // Update statement
+    {
+        $push: {likes: 'KFC' }
+    }
+);
