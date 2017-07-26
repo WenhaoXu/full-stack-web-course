@@ -18,3 +18,29 @@ db.ch2.find({}, {item: 1, qty: 1});
 // Count
 db.ch2.find({}).count();
 
+/********************  Comparison Query  ************************/
+// !!!Clean the collection!!!
+db.ch2.remove({});
+// Insert data before demo
+db.ch2.insertMany([
+   { item: "journal", qty: 25, status: "A" },
+   { item: "notebook", qty: 75, status: "A" },
+   { item: "paper", qty: null, status: "D" },
+   { item: "planner", qty: '45', status: "D" },
+   { item: "postcard", qty: 45, status: "A" }
+]);
+db.ch2.find({qty: {$gte: 75}});
+db.ch2.find({qty: {$lt: 75}});
+db.ch2.find({qty: {$gte: '45'}});
+
+
+
+
+
+
+
+
+
+
+
+
