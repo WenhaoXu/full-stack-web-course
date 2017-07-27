@@ -70,11 +70,28 @@ db.ch2.insertMany([
    { item: "apple"}
 ]);
 
-db.ch2.find({props: {code: 5, from: 'China'}});
-db.ch2.find({props.code:5, props.from: 'China'});   // Syntax error!
-db.ch2.find({'props.code':5, 'props.from': 'China'});
+db.ch2.find({props: {code: 5, from: 'China'}}, {_id:0});
+// db.ch2.find({props.code:5, props.from: 'China'});   // Syntax error!
+db.ch2.find({'props.code':5, 'props.from': 'China'}, {_id:0});
 db.ch2.find({'props.code': {$lt: 5}});
 
+/********************  Array Query  ************************/
+// !!!Clean the collection!!!
+db.ch2.remove({});
+// Insert data before demo
+db.ch2.insertMany([
+   { item: "journal", size: [1,2,3]},
+   { item: "paper", size: [3,2,1]},
+   { item: "planner", size: [1,3]},
+   { item: "postcard", size: [3,4,5]},
+   { item: "apple"}
+]);
+db.ch2.find({size: {$in: [1,2,3]}});
+db.ch2.find({size: {$all: [1,2,3]}});
+db.ch2.find({size: {$size: 2}});
+db.ch2.find({size: 
+{$elemMatch: {$gt: 3, $lt: 5}}
+});
 
 
 
