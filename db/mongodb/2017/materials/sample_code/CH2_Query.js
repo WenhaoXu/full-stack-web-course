@@ -58,10 +58,22 @@ db.ch2.find(
 {qty: {$not: {$gt: 40}}}    
 );
 
+/********************  Embedded Document Query  ************************/
+// !!!Clean the collection!!!
+db.ch2.remove({});
+// Insert data before demo
+db.ch2.insertMany([
+   { item: "journal", props: {code: 5, from: 'China'}},
+   { item: "paper", props: {from: 'China', code: 5}},
+   { item: "planner", props: {code: 1, from: 'USA'}},
+   { item: "postcard", props: {code: 2, from: 'Japan'}},
+   { item: "apple"}
+]);
 
-
-
-
+db.ch2.find({props: {code: 5, from: 'China'}});
+db.ch2.find({props.code:5, props.from: 'China'});   // Syntax error!
+db.ch2.find({'props.code':5, 'props.from': 'China'});
+db.ch2.find({'props.code': {$lt: 5}});
 
 
 
