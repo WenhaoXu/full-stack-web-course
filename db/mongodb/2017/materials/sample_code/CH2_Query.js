@@ -33,8 +33,30 @@ db.ch2.find({qty: {$gte: 75}});
 db.ch2.find({qty: {$lt: 75}});
 db.ch2.find({qty: {$gte: '45'}});
 
+/********************  Logical Query  ************************/
+// !!!Clean the collection!!!
+db.ch2.remove({});
+// Insert data before demo
+db.ch2.insertMany([
+   { item: "journal", qty: 25},
+   { item: "Journal", qty: 75},
+   { item: "paper", qty: null},
+   { item: "planner", qty: '45'},
+   { item: "postcard", qty: 45},
+   { item: "apple"}
+]);
 
+db.ch2.find({$or:
+[{item: 'journal'}, {qty: {$gt: 40}}]
+});
 
+db.ch2.find({$nor:
+[{item: 'journal'}, {qty: {$gt: 40}}]
+});
+
+db.ch2.find(
+{qty: {$not: {$gt: 40}}}    
+);
 
 
 
