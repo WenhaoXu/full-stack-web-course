@@ -93,5 +93,26 @@ db.ch2.find({size:
 {$elemMatch: {$gt: 3, $lt: 5}}
 });
 
+/********************  Cursor  ************************/
+// !!!Clean the collection!!!
+db.ch2.remove({});
+// Insert data before demo
+db.ch2.insertMany([
+   { age: 1, name: 'Andy'},
+   { age: 2, name: 'Amy'},
+   { age: 3, name: 'Bob'},
+   { age: 4, name: 'Bobby'},
+   { age: 5, name: 'Emma'},
+   { age: 6, name: 'Lina'},
+   { age: 7, name: 'Calire'},
+   { age: 8, name: 'Vince'},
+   { age: 9, name: 'Vici'},
+   { age: 10, name: 'Chris'},
+]);
 
+db.ch2.find({}).sort({age:-1}).skip(2);
+db.ch2.find({}).skip(2).limit(3);
 
+db.ch2.find({}).skip(2).limit(3).sort({age:-1});
+db.ch2.find({}).limit(3).skip(2).sort({age:-1});
+db.ch2.find({}).sort({age:-1}).skip(2).limit(3);
