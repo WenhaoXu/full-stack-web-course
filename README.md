@@ -8,7 +8,7 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
  4. [engineering](https://github.com/yellowb/full-stack-web-course/blob/master/engineering/outline.md)
  5. [small-project](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/outline.md)
  
-### 当前TODO List（@2017-06-9）
+### 当前TODO List（@2017-08-08）
 
  1. ~~请各位先review每个目录下的outline，看是否有需要改动的地方。~~ 
  2. ~~确定课程时长。~~（6天（week1 Mon~Fri）+（week2 Mon））
@@ -17,6 +17,7 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
  5. smallproject 题目要增加复杂度
  6. ~~6月开始要动手做PPT了~~
  7. PPT基本完成, 讲课时间为8.28 - 9.4. (8.28-Node.JS+Express, 8.29-MongoDB, 8.30-AngularJS, 8.31-工程化, 9.1~9.4-Projec)
+ 8. 开课前要写一封文档or邮件给到学生说明要看哪个目录里的东西.
  
 ### Rule
  1. 每部门课程放在对应子目录下
@@ -26,6 +27,8 @@ Full Stack Web Development Course. Back-end -> DB -> Front-end -> Engineering
 ### Updates
 
  1. 创建Repo，给出旧课程大纲与初步的新课程大纲。[by yellow @ 2017-04-25]
+ 2. PPT已基本完成, 并拷贝到 \\IRIS4-ZHA-LAB-W7\TrainingCourse\MEAN. [by yellow @ 2017-08-08]
+ 3. 讲课时间为8.28 - 9.4. (8.28-Node.JS+Express, 8.29-MongoDB, 8.30-AngularJS, 8.31-工程化, 9.1~9.4-Projec)
  
 ### Issues
 本项目有若干待解决的问题，例如**如下几个**。讨论请**移步到Issues** :)
