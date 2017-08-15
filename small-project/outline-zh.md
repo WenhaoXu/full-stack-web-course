@@ -9,7 +9,7 @@
 需求与Java课程的AMC订餐系统类似，以MEAN作为技术栈，实现包含管理员、商家、顾客3种角色的C2C订餐系统。具体功能会在下面罗列。
 
 ### 1.3. 功能结构
-//TODO
+![](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/module.png?raw=true)
 
 ## 2. A(Admin)
 ### 2.1. 审核商家注册申请
