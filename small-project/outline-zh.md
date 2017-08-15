@@ -24,7 +24,8 @@
 审核请求的状态转移图:
 
 ![](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/review_diagram.png?raw=true)
-//TODO 商家状态见下文
+
+**商家状态**参考[Reference 1 商家状态](#merchant-flow)
 
 ### 2.2. 改变商家的状态
 管理员可以随时改变**已经通过注册审核的**商家的状态，操作有如下几种：
@@ -65,7 +66,7 @@
 | 未激活 | 可以修改注册申请信息 |
 | 正常 | 可以使用任何功能 |
 
-//TODO 商家状态见下文
+**商家状态**参考[Reference 1 商家状态](#merchant-flow)
 
 ### 3.3. 商家登出
 你懂的
@@ -90,16 +91,16 @@
 | 商家接单 | 商家接单 | 商家接受订单并开始准备菜品 |
 | 开始配送 | 正在配送 | 商家开始配送菜品 |
 
-//TODO 订单状态见下文
+**订单状态**参考[Reference 2 订单状态](#order-flow)
 
 ### 3.6. 菜品广告位申请
 商家菜品管理中，添加推荐菜品功能，商家向管理员提交申请，并等待审核结果。申请通过后菜品会被推荐到首页的滚动广告中。
 
-### Reference 1 商家状态
-//TODO
+### <a name="merchant-flow"> Reference 1 商家状态 </a>
+![](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/merchant_diagram.png?raw=true)
 
-### Reference 2 订单状态
-//TODO
+### <a name="order-flow"> Reference 2 订单状态 </a>
+![](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/order_diagram.png?raw=true)
 
 ## 4. C(Customer)
 ### 4.1. 顾客注册
@@ -127,7 +128,7 @@
 用户点击购物车中的确认下单按钮，弹出提示框，提示用户确认收货地址等信息，点击确认按钮，则生成订单
 
 ### 4.6. 查看订单状态
-订单有6个状态：等待商家接单，商家拒接，商家接单，正在配送，订单完成, 订单取消
+订单有6个状态：等待商家接单，商家拒接，商家接单，正在配送，订单完成, 订单取消. **订单状态**参考[Reference 2 订单状态](#order-flow)
 
 用户只有在等待商家接单时可取消订单，其他状态都不能取消订单
 在完成配送之后，用户可手动确认订单完成，否则系统将在一段时间之后自动确认订单
