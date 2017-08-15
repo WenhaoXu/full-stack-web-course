@@ -21,7 +21,8 @@
 | 通过 | 审核通过 | 正常 | 管理员批准商家的注册申请，审核流程结束，商家状态变成正常 |
 | 驳回 | 驳回请求 | 未激活 | 管理员不批准商家的注册申请，系统需要提示商家修改信息，商家修改信息并提交后，审核的状态变成**有待审核**，管理员可以再次对其审核 |
 
-//TODO 状态转移图
+审核请求的状态转移图:
+![](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/review_diagram.png?raw=true)
 //TODO 商家状态见下文
 
 ### 2.2. 改变商家的状态
