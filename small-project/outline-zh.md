@@ -12,7 +12,7 @@
 ![](https://github.com/yellowb/full-stack-web-course/blob/master/small-project/module.png?raw=true)
 
 ## 2. A(Admin)
-### 2.1. 审核商家注册申请<ins class="github-user-ins">xxx</ins>
+### 2.1. 审核商家注册申请 <mark>(必做)</mark>
 
 每一个新注册的商家都需要填写商家信息，提交之后系统会提示管理员对新的商家注册申请进行审核，管理员需要检查商家填写的信息。审核动作和审核状态有如下几种：
 
