@@ -5,10 +5,12 @@
 
     DetailCtrl.$inject = [
         '$scope',
-        '$location'
+        '$location',
+        '$routeParams'
     ];
 
-    function DetailCtrl($scope, $location) {
-
+    function DetailCtrl($scope, $location, $routeParams) {
+        var vm = this;
+        vm.domainId = $routeParams.domainId || '';
     }
 })();

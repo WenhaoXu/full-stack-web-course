@@ -5,12 +5,23 @@
  */
 var express = require('express'),
     http = require('http'),
-    path = require('path');
+    mongoose = require('mongoose'),
+    path = require('path'),
+    restify = require('express-restify-mongoose');
 
 var config = require('./config');
 
+// Bootstrap db connection
+mongoose.set('debug', true);
+mongoose.connect('mongodb://localhost/ita');
+
 // Init the express application
 var app = express();
+
+// Globbing mongodb model files
+config.getGlobbedFiles('./app/models/**/*.js').forEach(function(modelPath) {
+    require(path.resolve(modelPath));
+});
 
 app.use('/', express.static(path.resolve('./public')));
 
@@ -24,9 +35,13 @@ config.getGlobbedFiles('./app/routes/**/*.js').forEach(function(routePath) {
     require(path.resolve(routePath))(router);
 });
 
+// context path for mobile
+restify.serve(router, mongoose.models.Trainee);
+
 router.get('/', function(req, res, next) {
     res.render('./index');
 });
+
 app.use('/', router);
 
 var port = 8080;

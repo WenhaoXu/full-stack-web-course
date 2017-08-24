@@ -1,6 +1,9 @@
 (function() {
     var dependency = [
-        'ngRoute'
+        'ngRoute',
+        'ui.grid',
+        'ui.grid.selection',
+        'ui.grid.resizeColumns'
     ];
 
     angular.module('ita', dependency);

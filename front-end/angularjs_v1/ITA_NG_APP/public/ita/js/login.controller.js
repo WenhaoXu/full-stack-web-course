@@ -11,11 +11,11 @@
     function LoginCtrl($scope, $location) {
         var vm = this;
 
-        vm.username = "user16@sfb-ad.local";
+        vm.username = "ita@oocl.com";
         vm.password = "Password1";
 
         vm.login = function() {
-            $location.path("/detail");
+            $location.path("/trainees");
         };
     }
 })();
