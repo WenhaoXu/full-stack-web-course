@@ -2,7 +2,7 @@
 
 ### Overview
 
-All installation packages you can found at [\\\CUIJA-2-W7\Installations\ITA](\\CUIJA-2-W7\Installations\ITA)
+All installation packages you can found at [\\CUIJA-W10\Installations\ITA](\\CUIJA-W10\Installations\ITA)
 
 If you have not install correct required environment, it's recommend to follow this environment setup guide.
 
@@ -32,7 +32,7 @@ If you have not install correct required environment, it's recommend to follow t
 
 1. Installation
 
-installation file location: \\CUIJA-2-W7\Installations\ITA\software-installations\node-v6.xxxxx.msi
+installation file location: \\CUIJA-W10\Installations\ITA\software-installations\node-v6.xxxxx.msi
 
 double-click , next , next ....
 
@@ -48,7 +48,7 @@ will show node.js version 6.x and npm version 3.x
 
 1. Installation
 
-installation file location: \\CUIJA-2-W7\Installations\ITA\software-installations\VSCodeSetup-x64.xxxxx.exe
+installation file location: \\CUIJA-W10\Installations\ITA\software-installations\VSCodeSetup-x64.xxxxx.exe
 
 
 #### Yarn 
@@ -61,7 +61,7 @@ Optional Settings for yarn
 
 1. Installation
 
-installation file location: \\CUIJA-2-W7\Installations\ITA\software-installations\yarn-0.27.5.msi
+installation file location: \\CUIJA-W10\Installations\ITA\software-installations\yarn-0.27.5.msi
 
 2. Install Validation
 
